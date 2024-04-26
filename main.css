@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  color:white;
+}
+body h1, p {
+  text-align:center;
+}
+#title {
+  color:blue;
+  font-family:arial;
+}
+#description {
+  color:white;
+  font-family:arial;
+}
+form {
+  width:80%;
+  margin:auto;
+}
+.personal-details {
+  padding:10px;
+  font-size:18px;
+}
+
+input[type=text], input[type=email] {
+  margin-left:20px;
+  width:75%;
+  border:1px solid blue;
+  height:5%;
+  border-radius:0 5px;
+  padding:5px;
+  margin-top:5px;
+  font-size:16px;
+}
+ input[type=number] {
+   width:30%;
+   border:1px solid blue;
+  height:5%;
+  border-radius:0 5px;
+  padding:5px;
+  margin-top:5px;
+  font-size:16px;
+ }
+.margin-bottom { margin-bottom:10px;
+}
+input[type=textarea] {
+  width:100%;
+  
+}
+textarea{
+  width:100%;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  border: 1px solid blue;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+legend{
+  font-size:20px;
+  padding:10px;
+}
+
+div{
+  margin-top:10px;
+}
+
